@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WSTEST</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_user">Users List</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="first_name">Name</string>
+    <string name="email">Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.ui.Profile.ProfileFragment">
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true">
+
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:padding="@dimen/_12sdp"
+          >
+
+
+         <ImageView
+             android:id="@+id/pro_image"
+             android:layout_width="@dimen/_170sdp"
+             android:layout_height="@dimen/_170sdp"
+             android:layout_gravity="center"
+             android:background="@color/Gray600"/>
+
+
+      </RelativeLayout>
+      <Button
+          android:id="@+id/attachment"
+          android:layout_width="wrap_content"
+          android:layout_height="@dimen/_45sdp"
+          android:layout_centerInParent="true"
+          android:src="@drawable/ic_attachment"
+          android:text="Browse"
+          android:layout_gravity="center">
+
+      </Button>
+      <EditText
+          android:id="@+id/editTextTextPersonName"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_40sdp"
+          android:layout_margin="@dimen/_15sdp"
+          android:background="@drawable/edittext_background"
+          android:padding="@dimen/_5sdp"
+          android:hint="text"
+          android:textColorHint="@color/white"
+          android:textColor="@color/white"/>
+
+      <EditText
+          android:id="@+id/editTextTextPersonName2"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_40sdp"
+          android:background="@drawable/edittext_background"
+          android:hint="text"
+          android:textColorHint="@color/white"
+          android:textColor="@color/white"
+          android:padding="@dimen/_5sdp"
+          android:layout_margin="@dimen/_15sdp"
+          />
+
+      <Button
+          android:id="@+id/button2"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_50sdp"
+          android:layout_marginStart="25dp"
+          android:layout_marginEnd="25dp"
+          android:text="Button"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+   </LinearLayout>
+
+</RelativeLayout>
